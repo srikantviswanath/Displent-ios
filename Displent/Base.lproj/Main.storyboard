@@ -30,7 +30,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X78-7e-GHR">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X78-7e-GHR">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sign In/ Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXF-AC-lWl">
@@ -79,7 +79,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb-icon" translatesAutoresizingMaskIntoConstraints="NO" id="BIO-zW-Yvs">
                                                 <rect key="frame" x="0.0" y="22" width="65" height="65"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ck-kQ-tFh" customClass="MaterialButton" customModule="Displent" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ck-kQ-tFh" customClass="MaterialButton" customModule="Displent" customModuleProvider="target">
                                                 <rect key="frame" x="140" y="38" width="380" height="33"/>
                                                 <color key="backgroundColor" red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
@@ -144,11 +144,15 @@
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqk-st-9EL" customClass="MaterialButton" customModule="Displent" customModuleProvider="target">
-                                        <rect key="frame" x="200" y="223" width="134" height="33"/>
-                                        <color key="backgroundColor" red="0.1176470588" green="0.53333333329999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqk-st-9EL" customClass="MaterialButton" customModule="Displent" customModuleProvider="target">
+                                        <rect key="frame" x="213" y="191" width="134" height="33"/>
+                                        <color key="backgroundColor" red="0.0" green="0.74901960784313726" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="134" id="2Aa-ce-RZ2"/>
+                                            <constraint firstAttribute="height" constant="33" id="5Zg-MS-Zeb"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
-                                        <state key="normal" title="FACEBOOK LOGIN">
+                                        <state key="normal" title="Login / Signup">
                                             <color key="titleColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
@@ -160,10 +164,12 @@
                                     <constraint firstItem="mpj-0K-cJg" firstAttribute="trailing" secondItem="Uv9-H7-PSt" secondAttribute="trailing" id="EGs-db-J4v"/>
                                     <constraint firstItem="Uv9-H7-PSt" firstAttribute="top" secondItem="EiP-HV-CeK" secondAttribute="bottom" constant="20" id="Exo-0D-l3s"/>
                                     <constraint firstAttribute="height" constant="128" id="Mki-KQ-ubh"/>
+                                    <constraint firstItem="Nqk-st-9EL" firstAttribute="top" secondItem="mpj-0K-cJg" secondAttribute="bottom" constant="50" id="TuS-Ls-Icb"/>
                                     <constraint firstItem="EiP-HV-CeK" firstAttribute="leading" secondItem="bsj-fq-Aa2" secondAttribute="leading" constant="13" id="hA6-QW-pSf"/>
                                     <constraint firstItem="EiP-HV-CeK" firstAttribute="top" secondItem="bsj-fq-Aa2" secondAttribute="top" constant="20" id="p8u-Vm-XnC"/>
                                     <constraint firstItem="mpj-0K-cJg" firstAttribute="top" secondItem="Uv9-H7-PSt" secondAttribute="bottom" constant="20" id="pdI-lU-Zpf"/>
                                     <constraint firstAttribute="trailing" secondItem="Uv9-H7-PSt" secondAttribute="trailing" constant="20" id="pm0-cQ-bDh"/>
+                                    <constraint firstItem="Nqk-st-9EL" firstAttribute="centerX" secondItem="bsj-fq-Aa2" secondAttribute="centerX" id="sPo-nD-Axr"/>
                                     <constraint firstItem="Uv9-H7-PSt" firstAttribute="leading" secondItem="EiP-HV-CeK" secondAttribute="leading" id="tr4-gR-KIL"/>
                                 </constraints>
                                 <variation key="default">
