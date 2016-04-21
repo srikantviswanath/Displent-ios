@@ -39,6 +39,16 @@
 		CB4776181CC6FF0E00F5DD16 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4776171CC6FF0D00F5DD16 /* MaterialTextField.swift */; };
 		CB4776191CC6FF0E00F5DD16 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4776171CC6FF0D00F5DD16 /* MaterialTextField.swift */; };
 		CB47761A1CC6FF0E00F5DD16 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4776171CC6FF0D00F5DD16 /* MaterialTextField.swift */; };
+		CB47761F1CC727BD00F5DD16 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761C1CC727BD00F5DD16 /* Bolts.framework */; };
+		CB4776201CC727BD00F5DD16 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761C1CC727BD00F5DD16 /* Bolts.framework */; };
+		CB4776211CC727BD00F5DD16 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761C1CC727BD00F5DD16 /* Bolts.framework */; };
+		CB4776221CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761D1CC727BD00F5DD16 /* FBSDKCoreKit.framework */; };
+		CB4776231CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761D1CC727BD00F5DD16 /* FBSDKCoreKit.framework */; };
+		CB4776241CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761D1CC727BD00F5DD16 /* FBSDKCoreKit.framework */; };
+		CB4776251CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761E1CC727BD00F5DD16 /* FBSDKLoginKit.framework */; };
+		CB4776261CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761E1CC727BD00F5DD16 /* FBSDKLoginKit.framework */; };
+		CB4776271CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB47761E1CC727BD00F5DD16 /* FBSDKLoginKit.framework */; };
+		D08D6CA07345FDE496B63476 /* Pods_Displent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F41A54F1D8882E8D5E0ED1 /* Pods_Displent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43F41A54F1D8882E8D5E0ED1 /* Pods_Displent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Displent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4775C21CC5C6B800F5DD16 /* Displent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Displent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4775C51CC5C6B800F5DD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB4775C71CC5C6B800F5DD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +92,11 @@
 		CB47760F1CC6EA0B00F5DD16 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB4776131CC6F00700F5DD16 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		CB4776171CC6FF0D00F5DD16 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		CB47761C1CC727BD00F5DD16 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CB47761D1CC727BD00F5DD16 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CB47761E1CC727BD00F5DD16 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DF43EF48503FCB345078B27F /* Pods-Displent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Displent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Displent/Pods-Displent.release.xcconfig"; sourceTree = "<group>"; };
+		F93494329533576E66105D7C /* Pods-Displent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Displent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Displent/Pods-Displent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB47761F1CC727BD00F5DD16 /* Bolts.framework in Frameworks */,
+				CB4776221CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */,
+				CB4776251CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */,
+				D08D6CA07345FDE496B63476 /* Pods_Displent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4776201CC727BD00F5DD16 /* Bolts.framework in Frameworks */,
+				CB4776231CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */,
+				CB4776261CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +125,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4776211CC727BD00F5DD16 /* Bolts.framework in Frameworks */,
+				CB4776241CC727BD00F5DD16 /* FBSDKCoreKit.framework in Frameworks */,
+				CB4776271CC727BD00F5DD16 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81BF60C44672415BB3BDF7E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F93494329533576E66105D7C /* Pods-Displent.debug.xcconfig */,
+				DF43EF48503FCB345078B27F /* Pods-Displent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB4775B91CC5C6B800F5DD16 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +150,8 @@
 				CB4775DC1CC5C6B800F5DD16 /* DisplentTests */,
 				CB4775E71CC5C6B800F5DD16 /* DisplentUITests */,
 				CB4775C31CC5C6B800F5DD16 /* Products */,
+				81BF60C44672415BB3BDF7E8 /* Pods */,
+				D6A080AFB64EDD214F022788 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +168,7 @@
 		CB4775C41CC5C6B800F5DD16 /* Displent */ = {
 			isa = PBXGroup;
 			children = (
+				CB47761B1CC7278900F5DD16 /* Frameworks */,
 				CB47760E1CC6E9E700F5DD16 /* Util */,
 				CB4775F91CC5C75000F5DD16 /* Resources */,
 				CB4775F81CC5C73300F5DD16 /* Controller */,
@@ -208,6 +246,24 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		CB47761B1CC7278900F5DD16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB47761C1CC727BD00F5DD16 /* Bolts.framework */,
+				CB47761D1CC727BD00F5DD16 /* FBSDKCoreKit.framework */,
+				CB47761E1CC727BD00F5DD16 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A080AFB64EDD214F022788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F41A54F1D8882E8D5E0ED1 /* Pods_Displent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB4775ED1CC5C6B800F5DD16 /* Build configuration list for PBXNativeTarget "Displent" */;
 			buildPhases = (
+				20ACC969D87ACA838872CA2A /* Check Pods Manifest.lock */,
 				CB4775BE1CC5C6B800F5DD16 /* Sources */,
 				CB4775BF1CC5C6B800F5DD16 /* Frameworks */,
 				CB4775C01CC5C6B800F5DD16 /* Resources */,
+				05D1530599BFAE6A9ED71FB3 /* Embed Pods Frameworks */,
+				392B740585A169980331D19B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,6 +404,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D1530599BFAE6A9ED71FB3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Displent/Pods-Displent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20ACC969D87ACA838872CA2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		392B740585A169980331D19B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Displent/Pods-Displent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB4775BE1CC5C6B800F5DD16 /* Sources */ = {
@@ -507,8 +614,13 @@
 		};
 		CB4775EE1CC5C6B800F5DD16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93494329533576E66105D7C /* Pods-Displent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = Displent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.Displent";
@@ -518,8 +630,13 @@
 		};
 		CB4775EF1CC5C6B800F5DD16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF43EF48503FCB345078B27F /* Pods-Displent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = Displent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.Displent";
@@ -531,6 +648,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = DisplentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.DisplentTests";
@@ -543,6 +664,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = DisplentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.DisplentTests";
@@ -554,6 +679,10 @@
 		CB4775F41CC5C6B800F5DD16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = DisplentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.DisplentUITests";
@@ -565,6 +694,10 @@
 		CB4775F51CC5C6B800F5DD16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Displent",
+				);
 				INFOPLIST_FILE = DisplentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "viswanath-srikant.DisplentUITests";
@@ -592,6 +725,7 @@
 				CB4775EF1CC5C6B800F5DD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4775F01CC5C6B800F5DD16 /* Build configuration list for PBXNativeTarget "DisplentTests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +734,7 @@
 				CB4775F21CC5C6B800F5DD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4775F31CC5C6B800F5DD16 /* Build configuration list for PBXNativeTarget "DisplentUITests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +743,7 @@
 				CB4775F51CC5C6B800F5DD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
