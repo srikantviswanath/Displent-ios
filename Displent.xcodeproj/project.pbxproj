@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB312F4E1CC8857700E58031 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB312F4D1CC8857700E58031 /* DataServices.swift */; };
 		CB4775C61CC5C6B800F5DD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4775C51CC5C6B800F5DD16 /* AppDelegate.swift */; };
 		CB4775C81CC5C6B800F5DD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4775C71CC5C6B800F5DD16 /* ViewController.swift */; };
 		CB4775CB1CC5C6B800F5DD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4775C91CC5C6B800F5DD16 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		43F41A54F1D8882E8D5E0ED1 /* Pods_Displent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Displent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB312F4D1CC8857700E58031 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		CB4775C21CC5C6B800F5DD16 /* Displent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Displent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4775C51CC5C6B800F5DD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB4775C71CC5C6B800F5DD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB312F4C1CC8854800E58031 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB312F4D1CC8857700E58031 /* DataServices.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		CB4775B91CC5C6B800F5DD16 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 		CB4775C41CC5C6B800F5DD16 /* Displent */ = {
 			isa = PBXGroup;
 			children = (
+				CB312F4C1CC8854800E58031 /* Services */,
 				CB47761B1CC7278900F5DD16 /* Frameworks */,
 				CB47760E1CC6E9E700F5DD16 /* Util */,
 				CB4775F91CC5C75000F5DD16 /* Resources */,
@@ -461,6 +472,7 @@
 				CB4776101CC6EA0B00F5DD16 /* Constants.swift in Sources */,
 				CB4775CE1CC5C6B800F5DD16 /* Displent.xcdatamodeld in Sources */,
 				CB4776141CC6F00700F5DD16 /* MaterialButton.swift in Sources */,
+				CB312F4E1CC8857700E58031 /* DataServices.swift in Sources */,
 				CB4775C81CC5C6B800F5DD16 /* ViewController.swift in Sources */,
 				CB4775C61CC5C6B800F5DD16 /* AppDelegate.swift in Sources */,
 				CB47760B1CC6E99100F5DD16 /* MaterialView.swift in Sources */,
