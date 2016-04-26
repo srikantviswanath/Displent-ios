@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1E425F1CCEE00200BDBD0D /* HomeFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E425E1CCEE00200BDBD0D /* HomeFeedVC.swift */; };
+		CB1E42631CCEE3D100BDBD0D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E42621CCEE3D100BDBD0D /* PostCell.swift */; };
 		CB312F4E1CC8857700E58031 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB312F4D1CC8857700E58031 /* DataServices.swift */; };
 		CB4775C61CC5C6B800F5DD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4775C51CC5C6B800F5DD16 /* AppDelegate.swift */; };
-		CB4775C81CC5C6B800F5DD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4775C71CC5C6B800F5DD16 /* ViewController.swift */; };
+		CB4775C81CC5C6B800F5DD16 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4775C71CC5C6B800F5DD16 /* LoginVC.swift */; };
 		CB4775CB1CC5C6B800F5DD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4775C91CC5C6B800F5DD16 /* Main.storyboard */; };
 		CB4775CE1CC5C6B800F5DD16 /* Displent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB4775CC1CC5C6B800F5DD16 /* Displent.xcdatamodeld */; };
 		CB4775D01CC5C6B800F5DD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4775CF1CC5C6B800F5DD16 /* Assets.xcassets */; };
@@ -71,10 +73,12 @@
 
 /* Begin PBXFileReference section */
 		43F41A54F1D8882E8D5E0ED1 /* Pods_Displent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Displent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E425E1CCEE00200BDBD0D /* HomeFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedVC.swift; sourceTree = "<group>"; };
+		CB1E42621CCEE3D100BDBD0D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		CB312F4D1CC8857700E58031 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		CB4775C21CC5C6B800F5DD16 /* Displent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Displent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4775C51CC5C6B800F5DD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB4775C71CC5C6B800F5DD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB4775C71CC5C6B800F5DD16 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CB4775CA1CC5C6B800F5DD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB4775CD1CC5C6B800F5DD16 /* Displent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Displent.xcdatamodel; sourceTree = "<group>"; };
 		CB4775CF1CC5C6B800F5DD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -222,10 +226,11 @@
 		CB4775F71CC5C72500F5DD16 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CB47760A1CC6E99100F5DD16 /* MaterialView.swift */,
 				CB4775C91CC5C6B800F5DD16 /* Main.storyboard */,
+				CB47760A1CC6E99100F5DD16 /* MaterialView.swift */,
 				CB4776131CC6F00700F5DD16 /* MaterialButton.swift */,
 				CB4776171CC6FF0D00F5DD16 /* MaterialTextField.swift */,
+				CB1E42621CCEE3D100BDBD0D /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -233,7 +238,8 @@
 		CB4775F81CC5C73300F5DD16 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB4775C71CC5C6B800F5DD16 /* ViewController.swift */,
+				CB4775C71CC5C6B800F5DD16 /* LoginVC.swift */,
+				CB1E425E1CCEE00200BDBD0D /* HomeFeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -470,13 +476,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4776101CC6EA0B00F5DD16 /* Constants.swift in Sources */,
+				CB1E425F1CCEE00200BDBD0D /* HomeFeedVC.swift in Sources */,
 				CB4775CE1CC5C6B800F5DD16 /* Displent.xcdatamodeld in Sources */,
 				CB4776141CC6F00700F5DD16 /* MaterialButton.swift in Sources */,
 				CB312F4E1CC8857700E58031 /* DataServices.swift in Sources */,
-				CB4775C81CC5C6B800F5DD16 /* ViewController.swift in Sources */,
+				CB4775C81CC5C6B800F5DD16 /* LoginVC.swift in Sources */,
 				CB4775C61CC5C6B800F5DD16 /* AppDelegate.swift in Sources */,
 				CB47760B1CC6E99100F5DD16 /* MaterialView.swift in Sources */,
 				CB4776181CC6FF0E00F5DD16 /* MaterialTextField.swift in Sources */,
+				CB1E42631CCEE3D100BDBD0D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
