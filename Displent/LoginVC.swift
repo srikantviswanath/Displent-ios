@@ -24,9 +24,10 @@ class LoginVC: UIViewController {
                             if error != nil {
                                 self.showErrorMsg("Unable to create account", msg: "Error creating account.Please try something else")
                             }else{
-                                print("RESULT RETURNED:\(result)")
                                 NSUserDefaults.standardUserDefaults().setValue(result[KEY_UID], forKey: KEY_UID)
-                                DataService.dataService.REF_BASE.authUser(email, password: pwd, withCompletionBlock: nil)
+                                DataService.dataService.REF_BASE.authUser(email, password: pwd){ error, authData in
+                                    DataService.dataService.createFirebaseUser(authData.uid, userDict: ["loginProvider": authData.provider!, "test": "foo"])
+                                }
                                 self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                             }
                         }
@@ -73,6 +74,7 @@ class LoginVC: UIViewController {
                         print("Login Failed:\(error)")
                     }else{
                         NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: KEY_UID)
+                        DataService.dataService.createFirebaseUser(authData.uid, userDict: ["loginProvider": authData.provider!, "test": "blah"])
                         self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                     }
                 })
