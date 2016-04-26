@@ -24,6 +24,7 @@ class LoginVC: UIViewController {
                             if error != nil {
                                 self.showErrorMsg("Unable to create account", msg: "Error creating account.Please try something else")
                             }else{
+                                print("RESULT RETURNED:\(result)")
                                 NSUserDefaults.standardUserDefaults().setValue(result[KEY_UID], forKey: KEY_UID)
                                 DataService.dataService.REF_BASE.authUser(email, password: pwd, withCompletionBlock: nil)
                                 self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
@@ -34,6 +35,7 @@ class LoginVC: UIViewController {
                     }
                 }else{
                     self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                    NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: KEY_UID)
                 }
             }
         }else{

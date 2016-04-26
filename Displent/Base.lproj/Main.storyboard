@@ -224,22 +224,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="364" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tmq-ke-NGP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="364" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tmq-ke-NGP">
                                 <rect key="frame" x="20" y="64" width="560" height="536"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="364" id="yqa-xy-fcE" customClass="PostCell" customModule="Displent" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="560" height="364"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yqa-xy-fcE" id="JBu-MJ-Ux4">
-                                            <rect key="frame" x="0.0" y="0.0" width="560" height="363"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="364"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4i-aM-mdy" userLabel="SpaceSimulatorContainer">
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H4i-aM-mdy" userLabel="SpaceSimulatorContainer" customClass="MaterialView" customModule="Displent" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="8" width="560" height="347"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KNd-Lo-c0u">
-                                                            <rect key="frame" x="8" y="8" width="544" height="331"/>
+                                                            <rect key="frame" x="8" y="8" width="544" height="332"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="icT-8Q-GdD">
                                                                     <rect key="frame" x="0.0" y="0.0" width="544" height="50"/>
@@ -279,15 +279,18 @@
                                                                         </stackView>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-6C-roP">
-                                                                    <rect key="frame" x="0.0" y="55" width="544" height="87"/>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-6C-roP">
+                                                                    <rect key="frame" x="0.0" y="55" width="544" height="70"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="l3t-5R-eSE"/>
+                                                                    </constraints>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                 </textView>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="screen" translatesAutoresizingMaskIntoConstraints="NO" id="Dp3-EP-Rh7">
-                                                                    <rect key="frame" x="0.0" y="147" width="544" height="184"/>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen" translatesAutoresizingMaskIntoConstraints="NO" id="Dp3-EP-Rh7">
+                                                                    <rect key="frame" x="0.0" y="130" width="544" height="202"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <constraints>
@@ -319,7 +322,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.8980392157" green="0.79805868552087222" blue="0.86265184807478279" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="profileImg" destination="Xqn-Ao-ThJ" id="ugu-au-ZpP"/>
                                             <outlet property="showcaseImg" destination="Dp3-EP-Rh7" id="LXY-Y4-1PH"/>
@@ -328,7 +331,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.9723846855152869" green="1" blue="0.77811657353098074" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="2Sm-y9-mCm" firstAttribute="top" secondItem="tmq-ke-NGP" secondAttribute="bottom" id="12O-B6-ag9"/>
                             <constraint firstItem="tmq-ke-NGP" firstAttribute="top" secondItem="aj1-Qv-a6a" secondAttribute="bottom" id="8E5-QT-mzs"/>
