@@ -31,6 +31,10 @@ class Post {
         return _postKey
     }
     
+    var likes: Int{
+        return _likes
+    }
+    
     /*init for a shell object before writing to Firebase. Hence doesnt have postKey*/
     init(description: String, imgUrl: String?, username: String){
         self._postDescription = description
